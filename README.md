@@ -2,7 +2,7 @@
 
 This is a Full Stack project that uses [The Movie Database (TMDB)](https://www.themoviedb.org/) API to populate a MongoDB database and display movie information in a modern, reactive UI built with React.
 
-## 📜 Table of Contents
+##Table of Contents
 
 - [Overview](#-overview)
 - [Features](#-features)
@@ -12,21 +12,21 @@ This is a Full Stack project that uses [The Movie Database (TMDB)](https://www.t
 - [Available Scripts](#-available-scripts)
 - [API Endpoints](#-api-endpoints)
 
-## 🌟 Overview
+##Overview
 
 The project is divided into two main parts:
 
 1.  **Back-End:** A RESTful API built with Node.js and Express.js, responsible for communicating with the MongoDB database (using Mongoose), managing movie data, and providing endpoints for the front end. It includes a feature to fetch data from the external TMDB API and populate the local database.
 2.  **Front-End:** A Single-Page Application (SPA) developed with React and Vite, which consumes the back-end API to dynamically display movies, allow searches, and show details for each title.
 
-## ✨ Features
+##Features
 
 -   **Movie Listing:** Displays movies stored in the database with pagination.
 -   **Movie Search:** Allows users to search for movies by title.
 -   **Detailed View:** Shows detailed information for a specific movie, such as its synopsis, release date, poster, etc.
 -   **Database Populator:** A dedicated back-end route to feed the database with popular movies from the TMDB API.
 
-## 🚀 Tech Stack
+##Tech Stack
 
 #### **Back-End**
 
@@ -43,7 +43,7 @@ The project is divided into two main parts:
 -   **Vite:** High-performance build tool for front-end development.
 -   **Axios:** HTTP client for making requests to the back-end.
 
-## ✅ Prerequisites
+##Prerequisites
 
 Before you begin, ensure you have the following installed on your machine:
 
@@ -85,7 +85,7 @@ Before you begin, ensure you have the following installed on your machine:
     - Replace `<user>`, `<password>`, and the cluster info with your actual MongoDB connection string.
     - Insert the API key you obtained from TMDB.
 
-## 🏃 Available Scripts
+##Available Scripts
 
 All commands should be run from the root of the project.
 
@@ -101,7 +101,7 @@ All commands should be run from the root of the project.
     ```
     The React application will be accessible at `http://localhost:5173`.
 
-## 📡 API Endpoints
+##API Endpoints
 
 The back-end API exposes the following main endpoints:
 
